@@ -1,53 +1,35 @@
-# Olá! Eu sou Vitor Paulo da Penha 👋
-# Desenvolvedor Backend
+# Soma Test
 
-## Sobre mim
+Este projeto é uma implementação de testes unitários para uma função de soma em Java. O objetivo é garantir que a função funcione corretamente em diferentes cenários e trate possíveis exceções.
 
-Sou um entusiasta de tecnologia, atualmente mergulhado no mundo da programação e desenvolvimento de sistemas. 
-Tenho 23 anos. Com experiência na área de **gestão de saúde pública (GSP)** e **sistema de assistência social (SAS)**, onde atuei em implantações,
-treinamentos e visitas técnicas para correção de inconsistências.
-   Moro em **Domingos Martins, ES** e estou sempre buscando aprender mais, especialmente na área de desenvolvimento de software.
+## Funcionalidades
 
-## Tecnologias de domínio 💻
+- Realiza a soma de dois números inteiros.
+- Testes para verificar se a função lida corretamente com entradas válidas e inválidas.
+- Garante que a função não quebre em situações inesperadas.
 
-- **Java**
-- **Spring Boot**
-- **Maven**
-- **JavaScript**
-- **HTML & CSS**
-- **JUnit**
-- **SQL**
-- **.Net**
-  
-## Projetos recentes 🚀
+## Tecnologias Utilizadas
 
- 
-Projeto: Sistema de Pedidos 
-* O site oferece uma interface fácil 
-de manipular para realizar compras 
-de forma on-line. 
-*Tecnologias: PostgreSQL, Java, JavaScript, 
-Css, Html, BootStrap, React Js.
+- Java
+- JUnit (para testes unitários)
 
-Projeto: Aplicativo de Assistência Social 
-* O aplicativo foi desenvolvido com o objetivo de otimizar e simplificar 
-o trabalho dos agentes de assistência social, permitindo a execução 
-de visitas domiciliares de forma offline. Durante as visitas, os agentes 
-podem preencher todos os dados necessários, de acordo com as diretrizes 
-estabelecidas pela Secretaria de Assistência Social. Posteriormente, o aplicativo 
-oferece a funcionalidade de exportação dos dados coletados, permitindo a integração 
-com sistemas terceirizados para consolidação e gestão das informações. 
-*Tecnologias: IDE Android Studio, Firebird, Java. 
-## Outras informações
+## Como Usar
 
-- 🌱 Estou sempre aberto a aprender novas tecnologias e ferramentas para melhorar meu desenvolvimento.
-- 🤝 Trabalho bem em equipe e estou sempre disposto a colaborar em projetos.
-- 🎯 Meu objetivo é evoluir como desenvolvedor e contribuir para projetos significativos.
+1. Clone o repositório: git clone https://github.com/Vitorpaulo-dapenha/soma_test.git
+2.  Navegue até o diretório do projeto: cd soma_test
+3.  Compile o projeto
 
-## Entre em contato 📫
+## Estrutura do Projeto
 
-- **E-mail**: vitorpaulodapenha03@gmail.com
-- **LinkedIn**: www.linkedin.com/in/vitor-paulo-da-penha-82b0b2303
-- **Celular**: (27) 99229-6187
+soma_test/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── [seu_pacote]/
+│   │           └── Soma.java
+│   └── test/
+│       └── java/
+│           └── [seu_pacote]/
+│               └── SomaTest.java
+└── pom.xml
 
-Vamos nos conectar e compartilhar conhecimentos! 😄
